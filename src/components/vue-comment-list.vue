@@ -31,7 +31,7 @@
 </template>
 <script>
 export default {
-  name: 'detail',
+  name: 'vuecommentlist',
   data () {
     return {
       dis: true,
