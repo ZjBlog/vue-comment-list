@@ -1,4 +1,4 @@
-import VueCommentList from './VueCommentList.vue'
+import VueCommentList from './vue-comment-list.vue'
 VueCommentList.install = function (Vue, options = {}) {
   if (typeof window !== 'undefined' && window.Vue) {
     Vue = window.Vue

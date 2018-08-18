@@ -4,6 +4,7 @@
   "description": "a vue component which comment and a list comments",
   "author": "zj",
   "private": false,
+  "main": "dist/vue-comment-list.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -13,6 +14,22 @@
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zhangjunTracy/vue-comment-list.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "vue",
+    "comment",
+    "list",
+    "comment list"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/zhangjunTracy/vue-comment-list#readme.md",
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
