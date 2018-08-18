@@ -2,6 +2,24 @@
 
 > a vue component which comment and a list comments
 
+### props
+| 名称 | 类型 | 默认值 | 说明 |
+| ---- | ---- | ------- | ----------- |
+| margintop| Number | 20 | margin-top:20px  距离上边的距离 大于0 |
+| mainColor | String | `'#409EFF'` | 当前组件的主要颜色如边框颜色、字体、背景|
+| backgroundColor | String |`'#409EFF'` | 整个组件的背景颜色 |
+| worldCount | Number | `200` | 输入评论的字数 |
+| allCount | Number | `0` | 评论列表中 评论总条数 pageSize 和allCount有一个就可以  |
+| pageSize | Number | `10` | 分页 每页的条数 必须有 |
+| nextPage | Boolean | `false` | 是否有下一页, pageSize 和allCount有一个就可以 |
+| pageData | Array | `[]` | 评论列表是list，里边是个对象如{name:'张三',moment:'评论内容',avatar: '头像路径100*100 大小',createdAt: '评论时间 2018-08-18 19:58:47'} |
+
+### event
+| 时间名称  |  说明 |
+| ---- | ----------- |
+| submit| 当点击发布评论的时候,组件会触发submit事件通知父组件,会把评论的内容传给父组件|
+|moreData| 当点击加载更多的时候，组件会触发moreData事件通知父组件，会把要获取评论的页数传给父组件|
+
 ## Build Setup
 
 ``` bash
