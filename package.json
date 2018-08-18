@@ -31,10 +31,10 @@
   "license": "MIT",
   "homepage": "https://github.com/zhangjunTracy/vue-comment-list#readme.md",
   "dependencies": {
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue": "^2.5.2"
   },
   "devDependencies": {
+    "vue-router": "^3.0.1",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",

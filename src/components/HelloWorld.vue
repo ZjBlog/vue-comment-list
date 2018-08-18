@@ -1,14 +1,17 @@
 <template>
-  <div>
-    {{msg}}
+  <div style="width: 600px;">
+    <comment-list :nextPage="next"></comment-list>
   </div>
 </template>
 <script>
+import CommentList from '../../dist/vue-comment-list.min.js'
 export default {
   name: 'detail',
   data () {
     return {
-      msg: 'Hello World'
+      msg: 'Hello World',
+      color: 'red',
+      next: true
     }
   },
   props: {
@@ -18,6 +21,7 @@ export default {
   watch: {
   },
   components: {
+    CommentList
   },
   mounted () {
   }
