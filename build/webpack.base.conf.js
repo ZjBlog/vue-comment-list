@@ -21,6 +21,7 @@ const createLintingRule = () => ({
 
 module.exports = {
   context: path.resolve(__dirname, '../'),
+  // 修改入口文件 根据环境不同 入口不同
   entry: {
     app: process.env.NODE_ENV === 'production' ? './src/components/index.js' : './src/main.js'
   },

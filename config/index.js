@@ -49,13 +49,13 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
-    assetsSubDirectory: '/',
+    assetsSubDirectory: 'static',
     assetsPublicPath: '/',
 
     /**
      * Source Maps
      */
-
+    // true 会生成.js.map文件 改成false
     productionSourceMap: false,
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
