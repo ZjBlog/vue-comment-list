@@ -1,6 +1,6 @@
 {
   "name": "vue-comment-list",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a vue component which comment and a list comments 一个关于评论和评论列表的组件",
   "author": "zj",
   "private": false,
@@ -31,7 +31,7 @@
   "license": "MIT",
   "homepage": "https://github.com/zhangjunTracy/vue-comment-list#readme.md",
   "peerDependencies": {
-    "vue": "2.x"
+    "vue": "^2.5.2"
   },
   "dependencies": {
   },

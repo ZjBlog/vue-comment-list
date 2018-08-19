@@ -28,7 +28,7 @@ const webpackConfig = merge(baseWebpackConfig, {
   output: {
     path: config.build.assetsRoot,
     filename: 'vue-comment-list.min.js',
-    library: 'hg-vcomponents',
+    library: 'vue-comment-list',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
