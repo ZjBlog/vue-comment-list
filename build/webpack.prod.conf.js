@@ -57,6 +57,11 @@ const webpackConfig = merge(baseWebpackConfig, {
       // increasing file size: https://github.com/vuejs-templates/webpack/issues/1110
       // allChunks: true,
     }),
+    // package.json 一个插件最好是没有依赖其它的模块    "dependencies": {} 
+    //  "peerDependencies": { 同版本依赖  需要安装vue 2.x使用此插件
+    // "vue": "2.x"
+    // },
+    //
     // 去除一些其它配置 build 成一个js和css文件  把vue打包成js
     // Compress extracted CSS. We are using this plugin so that possible
     // duplicated CSS from different components can be deduped.
