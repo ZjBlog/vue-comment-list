@@ -1,3 +1,39 @@
+## 安装
+
+### Node
+
+```
+$ yarn vue-comment-list
+```
+
+或者如果你选择 `npm`
+
+```
+$ npm i vue-comment-list
+```
+
+## 运行时要求
+
+vue2.x
+
+## 使用
+```HTML
+
+<vue-comment-list :pageData="pageData" :mainColor="color" :allCount="allCount" @submit="submit" @moreData="moreData" :pageSize="pageSize" :nextPage="nextPage"></vue-comment-list>
+
+```
+
+```JS
+// ES6
+import VueCommentList from 'vue-comment-list'
+
+new Vue({
+    components: {
+        VueCommentList
+    }
+})
+```
+
 # vue-comment-list
 
 > a vue component which comment and a list comments 一个关于评论及评论列表的组件
@@ -15,7 +51,7 @@
 | pageData | Array | `[]` | 评论列表是list，里边是个对象如{name:'张三',moment:'评论内容',avatar: '头像路径100*100 大小',createdAt: '评论时间 2018-08-18 19:58:47'} |
 
 ### event
-| 时间名称  |  说明 |
+| 事件名称  |  说明 |
 | ---- | ----------- |
 | submit| 当点击发布评论的时候,组件会触发submit事件通知父组件,会把评论的内容传给父组件|
 |moreData| 当点击加载更多的时候，组件会触发moreData事件通知父组件，会把要获取评论的页数传给父组件|
