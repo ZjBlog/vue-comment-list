@@ -1,6 +1,6 @@
 # vue-comment-list
 
-> a vue component which comment and a list comments
+> a vue component which comment and a list comments 一个关于评论及评论列表的组件
 
 ### props
 | 名称 | 类型 | 默认值 | 说明 |
