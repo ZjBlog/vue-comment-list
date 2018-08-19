@@ -24,7 +24,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     })
   },
   devtool: config.build.productionSourceMap ? config.build.devtool : false,
-  // 定义输出问价的名字 umd cmd amd都可以使用
+  // 定义输出组件的名字 umd cmd amd都可以使用
   output: {
     path: config.build.assetsRoot,
     filename: 'vue-comment-list.min.js',
