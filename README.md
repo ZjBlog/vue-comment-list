@@ -3,13 +3,7 @@
 ### Node
 
 ```
-$ yarn vue-comment-list
-```
-
-或者如果你选择 `npm`
-
-```
-$ npm i vue-comment-list
+$ npm i vue-comment-list --save 
 ```
 
 ## 运行时要求
@@ -24,14 +18,11 @@ vue2.x
 ```
 
 ```JS
-// ES6
+
 import VueCommentList from 'vue-comment-list'
 
-new Vue({
-    components: {
-        VueCommentList
-    }
-})
+Vue.use(VueCommentList)
+
 ```
 
 # vue-comment-list
