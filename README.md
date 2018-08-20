@@ -11,17 +11,18 @@ $ npm i vue-comment-list --save
 vue2.x
 
 ## 使用
-```HTML
-
-<vue-comment-list :pageData="pageData" :mainColor="color" :allCount="allCount" @submit="submit" @moreData="moreData" :pageSize="pageSize" :nextPage="nextPage"></vue-comment-list>
-
-```
 
 ```JS
 
 import VueCommentList from 'vue-comment-list'
 
 Vue.use(VueCommentList)
+
+```
+
+```HTML
+
+<vue-comment-list :pageData="pageData" :mainColor="color" :allCount="allCount" @submit="submit" @moreData="moreData" :pageSize="pageSize" :nextPage="nextPage"></vue-comment-list>
 
 ```
 
