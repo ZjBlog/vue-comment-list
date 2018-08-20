@@ -12,6 +12,7 @@ vue2.x
 
 ## 使用
 
+
 ```JS
 
 import VueCommentList from 'vue-comment-list'
