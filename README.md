@@ -3,7 +3,7 @@
 ### Node
 
 ```
-$ npm install vue-comment-list --save
+$ npm install vue-comments --save
 
 ```
 
