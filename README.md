@@ -26,7 +26,9 @@ or作为组件引入
 ```js
 
 import Comments from 'vue-comments'
+
 <comments></comments>
+
 export default {
   data () {
     return {}
