@@ -3,7 +3,7 @@
 ### Node
 
 ```
-$ npm i vue-comment-list
+$ npm i vue-comment-list --save
 ```
 
 ## 运行时要求
