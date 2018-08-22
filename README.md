@@ -46,9 +46,10 @@ or CDN
 
 ```
 
+如:
 ```HTML
 
-<vue-comment-list :pageData="pageData" :mainColor="color" :allCount="allCount" @submit="submit" @moreData="moreData" :pageSize="pageSize" :nextPage="nextPage"></vue-comment-list>
+<comments :pageData="pageData" :mainColor="color" :allCount="allCount" @submit="submit" @moreData="moreData" :pageSize="pageSize" :nextPage="nextPage"></comments>
 
 ```
 
