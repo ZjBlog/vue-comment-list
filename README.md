@@ -38,8 +38,13 @@ export default {
 
 ```
 or CDN
+
+```js
 <script src="https://unpkg.com/vue-comments@1.0.4/dist/vue-comments.min.js"></script>
+
  Vue.use(Comments)
+
+```
 
 ```HTML
 
