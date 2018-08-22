@@ -3,8 +3,7 @@
 ### Node
 
 ```
-$ npm install vue-comments --save
-
+$ npm i vue-comment-list
 ```
 
 ## 运行时要求
@@ -12,50 +11,21 @@ $ npm install vue-comments --save
 vue2.x
 
 ## 使用
-
-
-```JS
-
-import Comments from 'vue-comments'
-
-Vue.use(Comments)
-
-```
-or作为组件引入
-
-```js
-
-import Comments from 'vue-comments'
-
-<comments></comments>
-
-export default {
-  data () {
-    return {}
-  },
-  components {
-    Comments
-  }
-}
-
-```
-or CDN
-
-```js
-<script src="https://unpkg.com/vue-comments@1.0.4/dist/vue-comments.min.js"></script>
-
- Vue.use(Comments)
-
-```
-
-如:
 ```HTML
 
-<comments :pageData="pageData" :mainColor="color" :allCount="allCount" @submit="submit" @moreData="moreData" :pageSize="pageSize" :nextPage="nextPage"></comments>
+<vue-comment-list :pageData="pageData" :mainColor="color" :allCount="allCount" @submit="submit" @moreData="moreData" :pageSize="pageSize" :nextPage="nextPage"></vue-comment-list>
 
 ```
 
-# vue-comments
+```JS
+// ES6
+import VueCommentList from 'vue-comment-list'
+
+Vue.use(VueCommentList)
+
+```
+
+# vue-comment-list
 
 > a vue component which comment and a list comments 一个关于评论及评论列表的组件
 
