@@ -1,3 +1,5 @@
+[a better component](https://github.com/zhangjunTracy/vue-commentList#readme.md)
+
 ## 安装
 
 ### Node
